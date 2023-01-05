@@ -12,7 +12,7 @@ h2,h3 {
 }
  
 main {
-    width: 95%;
+    width: 80vw;
     margin: 0 auto;
 }
 
@@ -41,6 +41,12 @@ section {
     margin: 0 auto;
 }
 
+img {
+    width: 95%;
+    margin-left: 7px;
+    padding: 6px;
+}
+
 li {
     list-style-type: none;
 }
@@ -50,12 +56,18 @@ li {
 }
 section a {
     font-style: italic;
-    font-size: 8px;
+    font-size: 10px;
     color: grey;
 }
 
 section a:hover {
     color: azure;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0;
 }
 
 footer a {
