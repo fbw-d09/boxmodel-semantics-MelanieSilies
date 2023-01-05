@@ -1,0 +1,71 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2,h3 {
+    text-decoration: underline;
+}
+ 
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+section {
+    display: inline-block;
+}
+
+.begriff {
+    float: left;
+    width: 48%;
+    border: 2px solid lightcyan;
+    padding: 5px;
+    background: lightblue;
+}
+
+.allgemein {
+    float: right;
+    width: 48%;
+    border: 2px solid lightcyan;
+    padding: 5px;
+    background: lightblue;
+}
+
+.lernen {
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+section a {
+    font-style: italic;
+    font-size: 8px;
+    color: grey;
+}
+
+section a:hover {
+    color: azure;
+}
+
+footer a {
+    color: lightcyan;
+    text-decoration: none;
+    background: grey;
+    padding: 3px 6px;
+}
+
+footer a:hover, a:active {
+    background: lightblue;
+    color: grey;
+}
